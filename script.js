@@ -8,8 +8,8 @@ let userMessage = null; // Variable to store user's message
 const inputInitHeight = chatInput.scrollHeight;
 
 // API configuration
-const API_KEY = "AIzaSyCBEcZyw1jevtwd8HnYGsM3KidTUJI3AYc"; // Your API key here
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCBEcZyw1jevtwd8HnYGsM3KidTUJI3AYc`;
+const API_KEY = "AIzaSyCHrKxvXpz-KwHtcOk_fWIx8lGRzIqYzuc"; // Your API key here
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCHrKxvXpz-KwHtcOk_fWIx8lGRzIqYzuc`;
 
 const createChatLi = (message, className) => {
   // Create a chat <li> element with passed message and className
